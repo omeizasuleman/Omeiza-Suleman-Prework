@@ -1,0 +1,27 @@
+
+body{
+	background-color: gray;
+	color: white;
+	font-family: Arial;
+	
+}
+p{
+	font-weight: bold;
+	text-align: left;
+	font-size: 10px;
+}
+@media and (max-width: 768px){
+	body{
+		text-align: center;
+		h1{
+			font-size: 30px;
+		}
+		p{
+			text-align: left;
+		}
+	}
+	.jumbotron{
+		padding: 10px;
+	
+}
+		
