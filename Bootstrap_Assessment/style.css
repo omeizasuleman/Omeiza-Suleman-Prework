@@ -1,27 +1,44 @@
 
 body{
-	background-color: gray;
-	color: white;
-	font-family: Arial;
-	
+	font-family: Arial, Helvetica, sans-serif
 }
-p{
+
+.Organization{
 	font-weight: bold;
 	text-align: left;
 	font-size: 10px;
 }
-@media and (max-width: 768px){
-	body{
-		text-align: center;
-		h1{
-			font-size: 30px;
-		}
-		p{
-			text-align: left;
-		}
-	}
-	.jumbotron{
-		padding: 10px;
-	
+
+.jumbotron{
+	padding: 20%;
+	text-align: center;
+	align-items: center;
 }
-		
+.Slogan{
+	font-size: 20px;
+}
+.Title{
+	font-size: 45px;
+	font-weight: bold;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px){
+	.Organization{
+		text-align: center;
+	}
+
+	.Slogan{
+		font-size: 15px;
+	}
+
+	.Title{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		font-size: 40px;
+	}
+
+}

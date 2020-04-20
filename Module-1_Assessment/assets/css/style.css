@@ -1,0 +1,163 @@
+.Header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom-color: #cccccc;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    text-align: center;
+    padding-top: 20px;
+    border-style: solid;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #dddddd;
+    background-color: #ffffff;
+}
+
+h1{
+    background-color: #4aaaa5;
+    font-size: 35px;
+    font-weight: bold;
+    color:#ffffff;
+}
+h3{
+    font-size: 20px;
+}
+.MainContainer{
+    margin-top: 20px;
+    margin-bottom: 15%;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 3px;
+    width: 60%;
+    margin-left: 20%;
+    background-color: #ffffff;
+    padding: 3%;
+    position: relative;
+    bottom: 550px;
+    
+}
+.Texture{
+    width: 100%;
+    height: 550px;
+    }
+h2{
+    font-size: 30px;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+p{
+    font-size: 16px;
+}
+
+.col-md-12{
+    margin-top: 5px;
+}
+.ProfilePicture{
+    width: 90%;
+    height: 300px;
+}
+ 
+footer{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    bottom: 0px;
+    padding-top: 8px;
+}
+
+.NameBox, .EmailBox, .MessageBox {
+    width: 95%;
+}
+
+.MessageBox{
+    height: 100px;
+}
+
+.Picture1, .Picture2, .Picture3, .Picture4, .Picture5{
+    width: 100%;
+}
+
+.Picture1{
+    height: 250px;
+}
+
+.Picture2{
+    height: 125px;
+}
+
+.Picture3{
+    height: 125px;
+}
+
+.Picture4, .Picture5{
+    height: 300px;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .MainContainer{
+        margin-left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    div , p {
+        font-size: 12px;
+    }
+
+    .ProfilePicture{
+        margin-left: 10%;
+        width: 80%;
+        height: 350px;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+    
+    h3{
+        font-size: 15px;
+    }
+    
+    .MessageBox{
+        height: 270px;
+    }
+    
+    .Picture1, .Picture2, .Picture3 {
+        width: 50%;  
+    } 
+    
+    .Picture1{
+        height: 225px;
+    }
+    
+    .Picture2, .Picture3{
+        height: 100px;
+        position: relative;
+        left: 50%; 
+        bottom: 225px;
+    }
+    
+    .Picture4{
+        position: relative;
+        bottom: 225px;
+        height: 270px;
+    }
+    
+    .Picture5{
+        height: 270px;
+        display: none;
+    }
+}
